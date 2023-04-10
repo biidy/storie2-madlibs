@@ -67,6 +67,7 @@ body{
         color:rgb(31, 115, 211);
         font-weight: bold;
         margin-top: 2%;
+        background-color:wheat;
     }
     #rand{
         color:green;
@@ -86,6 +87,16 @@ body{
     input:active{
         box-shadow: 5px 5px rgb(54, 9, 9);
     }  
+    .label{
+        color:rgb(54, 9, 9) ;
+        font-size: 1rem;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: wheat;
+    } 
+    #title2{
+        color: tomato;
+    }
     @media all and (max-width:400px){
         #storie2{
          width: 200px;
