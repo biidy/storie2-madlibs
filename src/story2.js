@@ -34,12 +34,12 @@ let spn =document.getElementsByClassName("spn");
  
 /*here we will go to make the button gomad to be clicked*/
 function display( storie){
-   event.preventDefault();
  if((verify()==8) &&( wrdvulgar()==true))
   {
    let story1=document.getElementById(storie);
            story1.style.display='block';
-       back.style.display='block';       
+       back.style.display='block';    
+       back.style.marginLeft='28%';   
 
        gomad.style.display='none';
        random.style.display='none';    
@@ -52,9 +52,9 @@ function display( storie){
        for (let i=0;i<spn.length;i++){
          spn[i].innerText= oneinput[i].value;
          spn[i].style.color='tomato';
-
-     errormsg.style.display='none';    
+        
       }
+      errormsg.style.display='none'; 
  }    
 }
 
