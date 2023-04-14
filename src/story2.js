@@ -15,7 +15,7 @@ let spn =document.getElementsByClassName("spn");
    let cnt = 0;
    for(let i=0;i<oneinput.length;i++){
      
-       if(oneinput[i].value!= ' '||''){
+       if(oneinput[i].value!=''){
          cnt++;
         
        }
